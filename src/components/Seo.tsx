@@ -15,7 +15,7 @@ const Seo: React.FC<SeoProps> = ({
   type = 'website',
   image = '/tiki-grill-logo.png',
 }) => {
-  const siteUrl = 'https://tikigrill.com';
+  const siteUrl = 'https://tikigrill.netlify.app';
   const fullUrl = `${siteUrl}${path}`;
   const fullImageUrl = `${siteUrl}${image}`;
 

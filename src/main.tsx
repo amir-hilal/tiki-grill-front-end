@@ -8,11 +8,11 @@ const structuredData = {
   '@graph': [
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://tikigrill.com/#organization',
+      '@id': 'https://tikigrill.netlify.app/#organization',
       name: 'Tiki Grill',
-      url: 'https://tikigrill.com',
-      logo: 'https://tikigrill.com/tiki-grill-logo.png',
-      image: 'https://tikigrill.com/tiki-grill-logo.png',
+      url: 'https://tikigrill.netlify.app',
+      logo: 'https://tikigrill.netlify.app/tiki-grill-logo.png',
+      image: 'https://tikigrill.netlify.app/tiki-grill-logo.png',
       description:
         'Festival food perfection! Serving Gyros, Jumbo Turkey Legs, Blooming Onions, Garbage Fries, Funnel Cakes, and more at festivals and events.',
       telephone: '919-335-5288',
@@ -30,7 +30,7 @@ const structuredData = {
     },
     {
       '@type': 'Menu',
-      '@id': 'https://tikigrill.com/#menu',
+      '@id': 'https://tikigrill.netlify.app/#menu',
       name: 'Tiki Grill Menu',
       hasMenuSection: [
         {
