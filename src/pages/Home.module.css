@@ -1,0 +1,107 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--charcoal) 0%, #1a1a1a 100%);
+  color: #fff;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.heroTagline {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaButton {
+  background-color: var(--gold);
+  color: var(--charcoal);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.ctaButton:hover,
+.ctaButton:focus {
+  background-color: #c99a3a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(220, 172, 72, 0.4);
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--charcoal);
+  margin-bottom: 3rem;
+}
+
+.featuredGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.souvenirHighlight {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 3rem 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.souvenirHighlight h3 {
+  color: var(--charcoal);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.souvenirHighlight p {
+  color: #666;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroTagline {
+    font-size: 1.2rem;
+  }
+
+  .featuredGrid {
+    grid-template-columns: 1fr;
+  }
+}
